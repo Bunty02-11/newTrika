@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Contactus() {
     return (
@@ -36,63 +37,16 @@ function Contactus() {
                                                         </svg>
                                                     </span>
                                                     <ul className="navigation clearfix">
-                                                        <li className="dropdown">
-                                                            <a href="index.html">Home</a>
-                                                            <ul>
-                                                                <li><a href="index.html">Homepage 1</a></li>
-                                                                <li><a href="homepage-2.html">Homepage 2</a></li>
-                                                                <li><a href="homepage-3.html">Homepage 3</a></li>
-                                                            </ul>
+                                                    <li><Link to="/">Home</Link></li>
+                                                        <li>
+                                                            <Link to="/about">About us</Link>
                                                         </li>
-                                                        <li className="dropdown">
-                                                            <a href="#">Pages</a>
-                                                            <ul>
-                                                                <li><a href="about-us.html">About Us</a></li>
-                                                                <li><a href="our-history.html">Our History</a></li>
-                                                                <li><a href="classes.html">Classes</a></li>
-                                                                <li><a href="our-team-member.html">Our Team Member</a></li>
-                                                                <li><a href="team-single-detail.html">Team Single Detail</a></li>
-                                                                <li><a href="faq.html">Faq</a></li>
-                                                            </ul>
+                                                        <li>
+                                                        <Link to="/services">Service</Link>
                                                         </li>
-                                                        <li className="dropdown">
-                                                            <a href="#">Services</a>
-                                                            <ul>
-                                                                <li><a href="service-details.html">Service Detail</a></li>
-                                                            </ul>
+                                                        <li >
+                                                        <Link>Contact us</Link>
                                                         </li>
-                                                        <li className="dropdown">
-                                                            <a href="#">Events</a>
-                                                            <ul>
-                                                                <li><a href="event-style-1.html">Event Style 1</a></li>
-                                                                <li><a href="event-single-detail.html">Event Single Detail</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li className="dropdown">
-                                                            <a href="#">Blog</a>
-                                                            <ul>
-                                                                <li className="dropdown">
-                                                                    <a href="#">Grid View</a>
-                                                                    <ul>
-                                                                        <li><a href="blog-grid-2.html">Grid Col 2</a></li>
-                                                                        <li><a href="blog-grid-3.html">Grid Col-3</a></li>
-                                                                        <li><a href="blog-grid-4.html">Grid Col-4</a></li>
-                                                                        <li><a href="blog-grid-wide.html">Grid Col Wide</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li className="dropdown">
-                                                                    <a href="#">Sortable View</a>
-                                                                    <ul>
-                                                                        <li><a href="blog-sortable-col-2.html">Sortable Col 2</a></li>
-                                                                        <li><a href="blog-sortable-col-3.html">Sortable Col 3</a></li>
-                                                                        <li><a href="blog-sortable-col-4.html">Sortable Col 4</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><a href="blog-classic.html">Blog Classic</a></li>
-                                                                <li><a href="blog-details.html">Blog Detail</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li className="active"><a href="contact-us.html">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
